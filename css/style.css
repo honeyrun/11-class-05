@@ -274,6 +274,7 @@ a {
         display: flex;
         column-gap: 1vh;
         align-items: center;
+        justify-content: space-between;
     }
 
     .about aside {
@@ -328,6 +329,109 @@ a {
         padding-left: 5%;
     }
 
+}
+
+
+@media (min-width: 700px) {
+
+
+    /* NAV */
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3%;
+    }
+
+    nav > aside {
+        display: none;
+    }
+
+    nav > ul {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+
+    }
+
+    nav li {
+        list-style-type: none;
+    }
+
+    nav a {
+        color: var(--lightBlack2);
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: var(--defaultColor);
+    }
+
+
+    /* FEATURES */
+
+    .features {
+        padding-top: 2vh;
+        align-items: center;
+    }
+
+    .features blockquote {
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+
+    .features > article {
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .features a {
+        width: 24%;
+    }
+
+    .features h3 {
+        width: 100%;
+    }
+    .features p {
+        text-align: center;
+    }
+
+
+    /* ABOUT */
+
+    .about aside {
+        width: 35%;
+    }
+
+    .about > section {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 1vh;
+    }
+
+    .about a {
+        width: 45%;
+    }
+
+    .about q,
+    .about cite {
+        padding-left: 0;
+    }
+
+    /* FOOTER */
+
+    form {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    footer > section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
 }
