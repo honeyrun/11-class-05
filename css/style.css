@@ -82,6 +82,8 @@ a {
         background-color: var(--darkerBlack);
         color: white;
         align-items: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
     nav h2 {
@@ -105,6 +107,7 @@ a {
 
     details li {
         display: flex;
+        padding-right: 3%;
     }
 
     details a {
