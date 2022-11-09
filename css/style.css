@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap&#39;');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franllklin', sans-serif;
+}
+
+
+/* .about aside {
+    display: flex;
+    border: 5px dotted black;
+    width: 40%;
+    padding: 1px;
+}
+
+aside > span {
+    width: 100%;
+    border-top: 5px dotted black;
+} */
+
+:root {
+    --defaultColor : #55A2A6;
+    --defaultBlack : #151515;
+    --lightBlack : #333333;
+    --darkerBlack : #111111;
+    --lightBlack2 : #444444;
+    --defaultGray : #CCC;
+    --darkerGray : #B2B2B2;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body,
+nav,
+main,
+footer,
+main > section,
+.features a,
+.about > blockquote,
+.about > section > article {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--darkerBlack);
+}
+
+h1, h3 {
+    text-transform: capitalize;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: var(--darkerGray);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 250px) {
+    
+    header {
+        background-image: url("/img/bg_header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    header > article {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(50, 50, 50, 0.4);
+    }
+
+
+
+
+}
