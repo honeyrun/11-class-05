@@ -120,6 +120,7 @@ a {
         font-size: 24px;
     }
 
+    /* HEADER */
     
     header {
         background-image: url("/img/bg_header.jpg");
@@ -189,6 +190,73 @@ a {
         font-weight: 500;
     }
 
+    /* ABOUT */
+
+    .about {
+        padding: 5%;
+        row-gap: 5vh;
+    }
+
+    .about > article {
+        display: flex;
+        column-gap: 1vh;
+        align-items: center;
+    }
+
+    .about aside {
+        display: flex;
+        width: 30%;
+        border: 2px solid var(--defaultGray);
+        height: 0.7vh;
+        background-color: var(--defaultGray);
+    }
+
+    .about > section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+
+    .about section article {
+        row-gap: 3vh;
+    }
+
+    .about p {
+        line-height: 1.5;
+        color: var(--lightBlack2);
+        font-size: 13px;
+    }
+
+    .about a {
+        width: 30%;
+        background-color: var(--defaultColor);
+        text-align: center;
+        color: whitesmoke;
+        padding: 1%;
+    }
+
+    .about blockquote {
+        border-left: 8px solid var(--defaultColor);
+        padding: 3%;
+        row-gap: 3vh;
+        font-style: italic;
+    }
+
+    .about q {
+        padding-left: 5%;
+        line-height: 1.5;
+        color: var(--lightBlack2);
+        font-size: 13px;
+    }
+
+    .about cite {
+        color: var(--defaultColor);
+        text-transform: uppercase;
+        padding-left: 5%;
+    }
+
+
+    
 
 
 }
