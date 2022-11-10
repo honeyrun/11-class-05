@@ -418,7 +418,6 @@ a {
     .about {
         padding-left: 2%;
         padding-right: 2%;
-        padding-top: 2vh;
     }
 
     .about aside {
@@ -510,6 +509,31 @@ a {
         height: 60vh;
     }
 
+    /* FOOTER */
+
+    footer {
+        align-items: center;
+    }
+
+    footer > article {
+        padding: 2%;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 76%;
+    }
+
+    footer > section {
+        width: 76%;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+  
+    form {
+        justify-content: left;
+    }
+
+
     /* FEATURES DESKTOP*/
 
     .features {
@@ -555,6 +579,7 @@ a {
 
     .about {
         align-items: center;
+        padding-top: 2vh;
     }
    
     .about > article,
