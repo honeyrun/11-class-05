@@ -378,11 +378,11 @@ a {
     /* FEATURES */
 
     .features {
-        padding-top: 2vh;
+        padding-top: 1vh;
         align-items: center;
     }
 
-    .features blockquote {
+    .features > blockquote {
         padding-left: 10%;
         padding-right: 10%;
         width: 80%;
@@ -390,8 +390,9 @@ a {
 
     .features > article {
         flex-direction: row;
-        width: 90%;
+        width: 96%;
         justify-content: space-between;
+        padding: 0;
     }
 
     .features a {
@@ -399,8 +400,9 @@ a {
     }
 
     .features h3 {
-        width: 100%;
+        width: 70%;
     }
+
     .features p {
         text-align: center;
     }
