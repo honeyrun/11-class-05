@@ -493,7 +493,22 @@ a {
 
 @media (min-width: 1000px) {
 
-    header {
-        height: 50vh;
+    /* NAV */
+    nav {
+       justify-content: space-evenly;
     }
+
+    nav > ul {
+        padding-top: 0;
+        width: 40%;
+       align-items: center;
+    }
+    
+
+    /* HEADER */
+    header {
+        height: 60vh;
+    }
+
+
 }
