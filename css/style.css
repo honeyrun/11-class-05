@@ -333,6 +333,9 @@ a {
 
 @media (min-width: 700px) {
 
+    main {
+        row-gap: 1vh;
+    }
 
     /* NAV */
 
@@ -365,6 +368,10 @@ a {
     nav a:hover {
         text-decoration: underline;
         color: var(--defaultColor);
+    }
+
+    header {
+        height: 45vh;
     }
 
 
@@ -401,8 +408,13 @@ a {
 
     /* ABOUT */
 
+    .about {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
     .about aside {
-        width: 35%;
+        width: 37%;
     }
 
     .about > section {
@@ -411,13 +423,22 @@ a {
         column-gap: 1vh;
     }
 
+    .about p {
+        font-size: 16px;
+    }
+
     .about a {
-        width: 45%;
+        width: 42%;
+        padding: 2%;
     }
 
     .about q,
     .about cite {
         padding-left: 0;
+    }
+
+    .about q  {
+        font-size: 16px;
     }
 
     /* FOOTER */
