@@ -418,6 +418,7 @@ a {
     .about {
         padding-left: 2%;
         padding-right: 2%;
+        padding-top: 2vh;
     }
 
     .about aside {
@@ -493,7 +494,7 @@ a {
 
 @media (min-width: 1000px) {
 
-    /* NAV */
+    /* NAV DESKTOP*/
     nav {
        justify-content: space-evenly;
     }
@@ -504,12 +505,12 @@ a {
        align-items: center;
     }
 
-    /* HEADER */
+    /* HEADER DESKTOP*/
     header {
         height: 60vh;
     }
 
-    /* FEATURES */
+    /* FEATURES DESKTOP*/
 
     .features {
         padding-top: 3vh;
@@ -550,6 +551,21 @@ a {
     }
 
 
+    /* ABOUT DESKTOP*/
+
+    .about {
+        align-items: center;
+    }
+   
+    .about > article,
+    .about > section,
+    .about > blockquote {
+        width: 80%;
+    }
+
+    .about > blockquote {
+        box-sizing: border-box;
+    }
 
 
 }
