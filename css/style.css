@@ -489,5 +489,11 @@ a {
         height: 3vh;
     }
 
+}
 
+@media (min-width: 1000px) {
+
+    header {
+        height: 50vh;
+    }
 }
