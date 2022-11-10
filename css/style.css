@@ -166,7 +166,9 @@ a {
         column-gap: 2vh;
     }
 
-    aside > form {
+    /* FORM */
+
+    form {
         padding: 2%;
         display: flex;
     }
@@ -445,14 +447,43 @@ a {
 
     /* FOOTER */
 
+    footer > article,
+    footer > section {
+        padding-bottom: 2vh;
+    }
+
+    footer,
+    footer > article > article,
+    footer > article > section {
+        row-gap: 2vh;
+    }
+
     form {
-        width: 100%;
+        padding: 0;
         justify-content: flex-end;
+    }
+
+    footer h3 {
+        font-size: 20px;
     }
 
     footer > section {
         flex-direction: row;
         justify-content: space-between;
+        padding: 2%;
+    }
+
+    footer > article > section {
+        column-gap: 0.5vh;
+    }
+
+    footer aside {
+        row-gap: 2vh;
+    }
+
+    footer a {
+        width: 3vh;
+        height: 3vh;
     }
 
 
