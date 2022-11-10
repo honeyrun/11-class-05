@@ -503,12 +503,53 @@ a {
         width: 40%;
        align-items: center;
     }
-    
 
     /* HEADER */
     header {
         height: 60vh;
     }
+
+    /* FEATURES */
+
+    .features {
+        padding-top: 3vh;
+        row-gap: 0;
+    }
+
+    .features blockquote {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .features a {
+        padding: 2%;
+        height: 26vh;
+        transition: .3s;
+        justify-content: space-evenly;
+    }
+
+    .features a:hover {
+        background-color: var(--defaultBlack);
+        color: white;
+    }
+
+    .features a:hover > h3 {
+        color: var(--defaultColor);
+    }
+
+    .features a:hover > p {
+        color: var(--defaultGray);
+    }
+
+    .features > article {
+        width: 70%;
+    }
+
+    .features i {
+        font-size: 60px;
+    }
+
+
 
 
 }
